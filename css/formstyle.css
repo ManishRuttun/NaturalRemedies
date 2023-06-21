@@ -1,0 +1,72 @@
+* {
+  box-sizing: border-box;
+}
+
+/*style the wrapper and h1 */
+#wrapper {
+  width: 60%;
+  margin: 0 auto;
+  background-color: #333;
+  color: white;
+  padding: 20px;
+}
+
+/* style for labels */
+label {
+  width: 20%;
+  font-weight: bold;
+  padding: 3px;
+  border: 0px solid red;
+  font-size: 14px;
+}
+
+main h1 {
+  text-align: center;
+}
+
+/* Style the input container */
+.input-container {
+  display: flex;
+  width: 100%;
+  margin-bottom: 15px;
+}
+
+/* Style the form icons */
+.icon {
+  padding: 10px;
+  background: #e04d36;
+  color: white;
+  min-width: 50px;
+  text-align: center;
+}
+
+/* Style the input fields */
+.input-field {
+  width: 100%;
+  padding: 10px;
+  outline: none;
+}
+
+.input-field:focus {
+  outline: 2px solid #e04d36;
+}
+
+fieldset {
+  margin-bottom: 10px;
+}
+
+/* Set a style for the submit button */
+.btns {
+  background-color: #e04d36;
+  color: white;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  opacity: 0.7;
+  margin-top: 3px;
+  height: 40px;
+}
+
+.btns:hover {
+  opacity: 1;
+}
